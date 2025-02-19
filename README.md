@@ -1,5 +1,3 @@
-# Spotify Liked Songs into Genre Playlists
-
 Web application developed in Python with Flask that integrates with the Spotify API to automatically create playlists based on the genres of your Liked Songs. The application does the following tasks:
 - Authenticates the user via OAuth with Spotify.
 - Loads the user's "Liked Songs."
