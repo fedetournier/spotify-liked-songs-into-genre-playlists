@@ -6,6 +6,8 @@ Web application developed in Python with Flask that integrates with the Spotify 
 - Adds the corresponding songs to each playlist, processing them in batches to comply with API restrictions.
 
 The application prints debugging messages to the console, indicating the status of each stage of the process, which playlist is being created, etc.
+
+[!NOTE]
 Since the Spotify API does not provide the genre of a song, the application determines the genre based on its artists. Additionally, not all artists have a defined genre, so their songs are placed in a "no genre" playlist.
 
 ## Requirements
@@ -66,3 +68,4 @@ Since the Spotify API does not provide the genre of a song, the application dete
    Once the process is complete, new playlists will be created in your Spotify account, each corresponding to a detected genre.
 
 ---
+
